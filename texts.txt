@@ -1,0 +1,72 @@
+Hero Section Text
+Tagline:
+"Web Developer & Material Scientist"
+
+Main Heading:
+"Bridging Technology and the World of Materials"
+
+Subtext:
+"I build futuristic, resilient solutions at the intersection of code and the physical world."
+
+Primary Button:
+"View Projects"
+
+Secondary Button:
+"Get In Touch"
+
+About Me Section Text
+Heading:
+"About Me"
+
+Paragraph:
+
+"I'm a web developer and material scientist passionate about crafting solutions that are both digitally innovative and grounded in the real world.
+With a unique blend of technical knowledge and a deep understanding of material behavior, I bridge the gap between technology and tangible impact."
+
+Projects Section Text
+Heading:
+"Selected Projects"
+
+Intro Paragraph:
+"Here’s a glimpse into some of the digital and scientific work I've brought to life — from advanced web applications to research-driven experiments."
+
+Tech Stack Section Text
+Heading:
+"Technologies I Work With"
+
+Short Note:
+"I work across modern web technologies and scientific tools, always focusing on building future-ready solutions."
+
+Possible Tags:
+
+HTML, CSS, JavaScript (ES6+), Tailwind CSS
+
+React, Next.js, Node.js
+
+Python, MATLAB, Materials Studio
+
+Git & GitHub, Figma
+
+Contact Section Text
+Heading:
+"Let's Connect"
+
+Paragraph:
+"Interested in collaborating or have a project in mind?
+Let’s build something innovative together."
+
+Button Text:
+"Send a Message"
+
+Footer Text
+"© 2025 [Your Name]. Built with passion and precision."
+
+Extra Taglines/Quotes (optional if you want)
+You could sprinkle these around subtly:
+
+"Where digital creativity meets material science."
+
+"Engineering the future — one pixel and molecule at a time."
+
+"Building resilient solutions for a changing world."
+
