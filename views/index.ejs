@@ -7,8 +7,8 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body class="bg-background md:mx-10">
-    <div class="bg-background w-full p-8 flex items-baseline justify-between">
+  <body class="bg-background md:mx-10 mx-5">
+    <div class="bg-background w-full lg:mx-10 sm:mx-5 py-8 flex items-baseline justify-between">
       <div class="">
         <img src="/images/logo.svg" alt="" class="h-[20px] w-auto">
       </div>
@@ -16,31 +16,269 @@
         <img src="/images/hamburger-icon.svg" alt="" class="h-[20px] w-auto">
       </div>
     </div>
-    <div class="mx-10">
-      <div class="mt-10">
-        <div class="text-4xl md:text-6xl  font-headings text-charx-primary">
-          The Future of Technology
-        </div>
-        <div class="text-base font-body text-charx-secondary py-3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Natus, est! Qui porro eum assumenda omnis sed aperiam beatae quis consequuntur!
-        </div>
-        <div class="mt-7">
-          <img src="/images/hero-section.jpg" alt="" class="rounded-lg w-full">
-          <div class="body-texts py-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor blanditiis quaerat nam voluptatum error voluptate expedita alias eligendi? Sequi odio veritatis error consequuntur cumque quae doloremque animi fugiat numquam?
+    <div class="">
+      <div class="mt-10 items-center justify-center">
+        <div class="text-xl md:text-4xl font-headings text-primary flex items-center justify-center">
+          <img src="/images/logo.svg" alt="" class="h-[20px] md:h-[30px] w-auto">
+          <div class="px-4 mx-4  text-background bg-accent py-2 rounded-lg">
+            little web space
           </div>
-          <div class="flex items-baseline justify-around">
-            <div>
-              
+        </div>
+        <div class="text-base font-body text-primary md:text-lg py-3 mt-6  text-center">
+          Hello and welcome to my little corner of the internet! Here, I share my thoughts, experiences, and insights on everything from personal growth to the latest trends in tech, lifestyle, 
+          and beyond. Whether you're looking for inspiration, advice, or just a good read, I hope you find something here that sparks your interest.
+          Take a look around and feel free to explore the posts. I update regularly, so make sure to check back for new content. Enjoy your visit!
+        </div>
+
+      </div>
+    </div>
+
+    <div class="h-0.5 items-center justify-center my-10 w-full bg-primary rounded-t-full "></div>
+
+    <div class="lg:mx-10 sm:mx-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8">
+      <div class="py-4 lg:col-span-3 md:col-span-1 lg:row-span-2">
+        <div>
+          <img src="/images/selfcare-blog.jpg" alt="" class="rounded-lg w-full h-auto ">
+        </div>
+        <div class="py-4">
+          <div class=" blog-category">
+            Lifestyle
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="blog-title">
+              5 Tips for Stress Relief
+            </div>
+            <img src="/images/arrow_outward.svg" alt="" class="hover:cursor-pointer">
+          </div>
+
+          <div class="line-clamp-3 text-primary text-sm md:text-base font-body">
+            Simple stress-relief methods anyone can use daily to improve mental well-being and maintain a more balanced, 
+            healthy lifestyle in today’s fast-paced world.
+          </div>
+          <div class="flex items-center my-4">
+            <img src="/images/jane-doe.jpg" alt="" class="rounded-full w-12 h-12 object-cover">
+            <div class="flex flex-col items-center px-3">
+              <div class="blog-author">
+                Jane Doe
+              </div>             
+              <div class="blog-date">
+                28 Apr 2025
+              </div>
             </div>
           </div>
         </div>
+
+      </div> 
+      <div class="py-4 ">
+        <div>
+          <img src="/images/travel-italy.jpg" alt="" class="blog-image">
+        </div>
+        <div class="py-4">
+          <div class=" blog-category">
+            Travel
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="blog-title">
+              Hidden Gems of Italy
+            </div>
+            <img src="/images/arrow_outward.svg" alt="" class="hover:cursor-pointer">
+          </div>
+          <div class="line-clamp-3 text-primary text-sm md:text-base font-body">
+            Discover lesser-known Italian destinations full of charm, beauty, 
+            and history that offer unforgettable experiences away from the usual tourist crowds.
+          </div>
+          <div class="flex items-center my-4">
+            <img src="/images/john-smith.jpg" alt="" class="rounded-full w-12 h-12 object-cover">
+            <div class="flex flex-col items-center px-3">
+
+              <div class="blog-author">
+                John Smith
+              </div>              
+              <div class="blog-date">
+                27 Apr 2025
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <div class="py-4 ">
+        <div>
+          <img src="/images/gadgets.jpg" alt="" class="blog-image">
+        </div>
+        <div class="py-4">
+          <div class=" blog-category">
+            Technology
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="blog-title">
+              Top Gadgets for 2025
+            </div>
+            <img src="/images/arrow_outward.svg" alt="" class="hover:cursor-pointer">
+          </div>
+          <div class="line-clamp-3 text-primary text-sm md:text-base font-body">
+            Explore this year’s best tech gadgets designed to enhance productivity, 
+            creativity, health, and convenience in everyday life—innovation that truly matters.
+          </div>
+          <div class="flex items-center my-4">
+            <img src="/images/sara-lee.jpg" alt="" class="rounded-full w-12 h-12 object-cover">
+            <div class="flex flex-col items-center px-3">
+              <div class="blog-author">
+                Sara Lee
+              </div>              
+              <div class="blog-date">
+                26 Apr 2025
+              </div>
+            </div>
+          </div>
+        </div>
 
+      </div>
+      <div class="py-4 ">
+        <div>
+          <img src="/images/travel-italy.jpg" alt="" class="blog-image">
+        </div>
+        <div class="py-4">
+          <div class=" blog-category">
+            Travel
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="blog-title">
+              Hidden Gems of Italy
+            </div>
+            <img src="/images/arrow_outward.svg" alt="" class="hover:cursor-pointer">
+          </div>
+          <div class="line-clamp-3 text-primary text-sm md:text-base font-body">
+            Discover lesser-known Italian destinations full of charm, beauty, 
+            and history that offer unforgettable experiences away from the usual tourist crowds.
+          </div>
+          <div class="flex items-center my-4">
+            <img src="/images/john-smith.jpg" alt="" class="rounded-full w-12 h-12 object-cover">
+            <div class="flex flex-col items-center px-3">
+              <div class="blog-author">
+                John Smith
+              </div>              
+              <div class="blog-date">
+                27 Apr 2025
+              </div>
+            </div>
+          </div>
+        </div>
 
+      </div>
+      <div class="py-4 ">
+        <div>
+          <img src="/images/travel-italy.jpg" alt="" class="blog-image">
+        </div>
+        <div class="py-4">
+          <div class=" blog-category">
+            Travel
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="blog-title">
+              Hidden Gems of Italy
+            </div>
+            <img src="/images/arrow_outward.svg" alt="" class="hover:cursor-pointer">
+          </div>
+          <div class="line-clamp-3 text-primary text-sm md:text-base font-body">
+            Discover lesser-known Italian destinations full of charm, beauty, 
+            and history that offer unforgettable experiences away from the usual tourist crowds.
+          </div>
+          <div class="flex items-center my-4">
+            <img src="/images/john-smith.jpg" alt="" class="rounded-full w-12 h-12 object-cover">
+            <div class="flex flex-col items-center px-3">
+              <div class="blog-author">
+                John Smith
+              </div>              
+              <div class="blog-date">
+                27 Apr 2025
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="py-4 ">
+        <div>
+          <img src="/images/travel-italy.jpg" alt="" class="blog-image">
+        </div>
+        <div class="py-4">
+          <div class=" blog-category">
+            Travel
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="blog-title">
+              Hidden Gems of Italy
+            </div>
+            <img src="/images/arrow_outward.svg" alt="" class="hover:cursor-pointer">
+          </div>
+          <div class="line-clamp-3 text-primary text-sm md:text-base font-body">
+            Discover lesser-known Italian destinations full of charm, beauty, 
+            and history that offer unforgettable experiences away from the usual tourist crowds.
+          </div>
+          <div class="flex items-center my-4">
+            <img src="/images/john-smith.jpg" alt="" class="rounded-full w-12 h-12 object-cover">
+            <div class="flex flex-col items-center px-3">
+              <div class="blog-author">
+                John Smith
+              </div>              
+              <div class="blog-date">
+                27 Apr 2025
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="py-4 ">
+        <div>
+          <img src="/images/travel-italy.jpg" alt="" class="blog-image">
+        </div>
+        <div class="py-4">
+          <div class=" blog-category">
+            Travel
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="blog-title">
+              Hidden Gems of Italy
+            </div>
+            <img src="/images/arrow_outward.svg" alt="" class="hover:cursor-pointer">
+          </div>
+          <div class="line-clamp-3 text-primary text-sm md:text-base font-body">
+            Discover lesser-known Italian destinations full of charm, beauty, 
+            and history that offer unforgettable experiences away from the usual tourist crowds.
+          </div>
+          <div class="flex items-center my-4">
+            <img src="/images/john-smith.jpg" alt="" class="rounded-full w-12 h-12 object-cover">
+            <div class="flex flex-col items-center px-3">
+              <div class="blog-author">
+                John Smith
+              </div>           
+              <div class="blog-date">
+                27 Apr 2025
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
 
+    <div class="p-4 lg:mx-10 sm:mx-5 mt-6 md:mt-10 flex-col md:flex-row items-start space-y-4 flex md:items-center bg-secondary rounded-2xl md:justify-between">
+      <div class="md:px-4">
+        <div class="font-headings text-background text-base md:text-lg">
+          Join our newsletter
+        </div>
+        <div class="font-body text-background text-sm md:text-base py-2">
+          We'll send you a nice letter once a week. No spam
+        </div>
+      </div>
+      <form action="" method="post" class="md:px-4 flex flex-col md:flex-row md:items-baseline  items-start space-y-3">
+        <input type="text" placeholder="Enter your email" class="text-background text-base md:text-lg font-body px-5 py-3 ring-1 ring-background rounded-full hover:outline-none active:outline-none focus:outline-none">
+        <button type="submit" class="p-2 md:p-3 mx-2 rounded-lg body-texts bg-background hover:cursor-pointer">Subscribe</button>
+      </form>
+
+    </div>
 
   </body>
 </html>

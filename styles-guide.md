@@ -5,12 +5,11 @@
 ### Color Palette
 
     Role | Color | HEX | Tailwind Class
-Primary | Rich Earth Brown | #4B3A2D | bg-[#4B3A2D]
-Secondary | Soft Sand | #D7C4A3 | bg-[#D7C4A3]
-Accent (Highlight) | Electric Teal | #00FFD1 | bg-[#00FFD1]
+Primary | Rich Earth Brown | #FAFAFA | bg-[#4B3A2D]
+Secondary | Soft Sand | #66A182 | bg-[#D7C4A3]
+Accent (Highlight) | Electric Teal | #D9BF77 | bg-[#00FFD1]
 Background | Dark Slate | #1F2937 | bg-[#1F2937]
-Text Primary | Very Light Gray | #F9FAFB | text-[#F9FAFB]
-Text Secondary | Muted Gray | #9CA3AF | text-[#9CA3AF]
+
 
 ### Typography
 

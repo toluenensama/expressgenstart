@@ -16,19 +16,37 @@
     --font-body: Inter-Regular;
 
     /* colors */
-    --color-background: #1F2937;
-    --color-charx-primary: #F9FAFB;
-    --color-charx-secondary: #9CA3AF;
-    --color-accent: #00FFD1;
-    --color-primary: #4B3A2D;
-    --color-secondary: #D7C4A3;
+    --color-background: #FAFAFA;
+    --color-primary: #2E4057;
+    --color-secondary: #66A182;
+    --color-accent:  #BF1363;
+
+
 
 }
 
 @layer components {
 
     .body-texts {
-       @apply text-base font-body text-charx-secondary;
+       @apply text-base font-body text-secondary;
     }
 
+    .blog-title {
+        @apply text-primary font-headings text-xl py-2;
+    }
+
+    .blog-date {
+        @apply text-base md:text-lg font-body text-primary;
+    }
+
+    .blog-author {
+        @apply text-base md:text-lg font-headings text-primary;
+    }
+
+    .blog-category {
+        @apply p-2 mt-4 inline rounded-lg text-base uppercase md:text-lg my-4 font-headings bg-accent text-background;
+    }
+    .blog-image {
+        @apply rounded-lg w-full h-auto aspect-3/2 object-cover;
+    }
 }
