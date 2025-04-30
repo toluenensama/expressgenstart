@@ -273,13 +273,29 @@
           We'll send you a nice letter once a week. No spam
         </div>
       </div>
-      <form action="" method="post" class="md:px-4 flex flex-col md:flex-row md:items-baseline  items-start space-y-3">
-        <input type="text" placeholder="Enter your email" class="text-background text-base md:text-lg font-body px-5 py-3 ring-1 ring-background rounded-full hover:outline-none active:outline-none focus:outline-none">
-        <button type="submit" class="p-2 md:p-3 mx-2 rounded-lg body-texts bg-background hover:cursor-pointer">Subscribe</button>
-      </form>
-
+      <div class="md:px-4 grid grid-cols-1 md:grid-cols-3 md:items-baseline  items-start gap-y-3">
+        <input id="emailInput" type="text" placeholder="Enter your email" class="text-background md:col-span-2 text-base md:text-lg font-body px-5 py-3 ring-1 ring-background rounded-lg hover:outline-none active:outline-none focus:outline-none">
+        <button id="emailSubmit" type="submit" class="p-2 md:p-3 mx-2 rounded-lg body-texts bg-background hover:cursor-pointer">Subscribe</button>
+        <div id="emailErrorText" class="text-sm text-accent font-body md:col-span-2 px-2 order-2 md:order-last hidden">
+          Please enter a valid password.
+        </div>
+      </div>
     </div>
-
+    <footer class="mt-10">
+      <div class="h-0.25 items-center justify-center my-10 w-full bg-primary rounded-t-full "></div>
+      <div class="flex items-center justify-center space-x-4 py-4 my-4">
+        <img src="/images/facebook-f-brands.svg" class="icons-footer">
+        <img src="/images/github-brands.svg" alt="" class="icons-footer">
+        <img src="/images/x-twitter-brands (1).svg" class="icons-footer">
+      </div>
+    <div class="flex py-4 flex-col md:flex-row items-end md:items-center md:justify-between justify-center">
+      <img src="/images/logo.svg" alt="" class="h-[13px] md:h-[20px] w-auto">
+      <div id="date" class="body-texts">
+      </div>
+    </div>
+  
+    </footer>
+    <script src="/javascripts/script.js"></script>
   </body>
 </html>
 

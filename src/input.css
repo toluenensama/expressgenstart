@@ -28,7 +28,7 @@
 @layer components {
 
     .body-texts {
-       @apply text-base font-body text-secondary;
+       @apply text-base font-body text-primary;
     }
 
     .blog-title {
@@ -48,5 +48,8 @@
     }
     .blog-image {
         @apply rounded-lg w-full h-auto aspect-3/2 object-cover;
+    }
+    .icons-footer {
+        @apply aspect-square w-10 h-auto;
     }
 }
